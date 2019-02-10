@@ -90,10 +90,33 @@
 /*!******************!*\
   !*** ./index.js ***!
   \******************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _server_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./server/index.js */ \"./server/index.js\");\n/* harmony import */ var _server_index_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_server_index_js__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./index.js?");
+
+/***/ }),
+
+/***/ "./server/index.js":
+/*!*************************!*\
+  !*** ./server/index.js ***!
+  \*************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("var express = __webpack_require__(/*! express */ \"express\");\n\nvar app = express();\nvar port = 3000;\napp.get('/', function (req, res) {\n  return res.send('Hello World!');\n});\napp.listen(port, function () {\n  return console.log(\"Example app listening on port \".concat(port, \"!\"));\n});\n\n//# sourceURL=webpack:///./server/index.js?");
+
+/***/ }),
+
+/***/ "express":
+/*!**************************!*\
+  !*** external "express" ***!
+  \**************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("\n\n//# sourceURL=webpack:///./index.js?");
+eval("module.exports = require(\"express\");\n\n//# sourceURL=webpack:///external_%22express%22?");
 
 /***/ })
 
